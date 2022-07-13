@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap');
+
+body{
+    background-color: #e8edf1;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+h2{
+    text-align: center;
+    font-weight: 700;
+    color: #2983dd;
+    font-size: 50px;
+}
+
+#wrapper{
+    margin: 10px auto;
+    padding: 50px;
+}
+
+#main{
+    width: 600px;
+    background-color: #0945a57e;
+    margin: auto;
+    padding: 40px;
+}
+
+#central{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+button#add{
+    margin-left: 10px;
+    background-color: #0945a57e;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    border: 1px solid #121212;
+    padding: 5px;
+    width: 130px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+button#add:hover{
+    background-color: #07498a;
+}
+
+input#todo-input{
+    width: 250px;
+    border: 1px solid #121111;
+    border-radius: 5px;
+    height: 20px;
+    padding: 7px;
+    margin-bottom: 20px;
+}
+
+.new_element {
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.trash{
+    color:#0945a5d6;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.check{
+    color: #107710;
+    cursor: pointer;
+    margin-left: 10px;
+}
